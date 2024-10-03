@@ -1,0 +1,84 @@
+/* Login Tab Styles */
+
+.section_class {
+  background-image: url("https://getwallpapers.com/wallpaper/full/b/b/1/212841.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* margin-left: -16px; */
+  width: 100%;
+  height: 501px;
+}
+h4,.h2{
+  color:black;
+}
+.h2:hover {
+  color: #4300fc;
+}
+
+.form-control-lg {
+  width: 172px;
+  height: 30px;
+}
+
+.text-danger {
+  font-weight: bolder;
+  font-size: larger;
+  margin-left: 260px;
+}
+
+.invalid {
+  border: 2px solid rgba(238, 8, 8, 0.932);
+}
+
+button[type="submit"] {
+  margin-left: 118px;
+}
+
+.btn {
+  background-color: rgba(5, 5, 107, 0.904);
+}
+
+.btn:hover {
+  background-color: rgba(4, 4, 83, 0.904);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.card-body1 {
+  margin-left: 80px;
+  /* margin-top: 0px; */
+  border-radius: 10px;
+  /* background: #1b2430; */
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+input {
+  color: black;
+}
+
+.loginSingn {
+  font-size: larger;
+}
+
+.userSignup {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.userSignup:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  button[type="submit"] {
+    margin-left: 10px;
+
+  }
+}

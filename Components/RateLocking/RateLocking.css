@@ -1,0 +1,58 @@
+.form-control-lg {
+    width: 172px;
+    height: 30px;
+   }
+   .text-danger{
+       font-weight: bolder;
+       font-size: larger;
+       margin-left: 250px;
+   }
+   .invalid {
+       border: 2px solid rgba(238, 8, 8, 0.932);
+   }
+   
+
+.highlighted-date {
+    background-color: lightgreen; 
+    border-radius: 50%; 
+    width: 24px; 
+    height: 24px; 
+    margin: auto; 
+  }
+  .calender{
+    margin-left: 85px;
+  }
+  
+
+  
+.buttons{
+    display: flex;
+    margin-top: 20px;
+    }
+    
+    button[type="submit"] {
+        background-color: #0a0a8a;
+        transform: scale(1.05);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    } 
+    
+    button[type="submit"]:hover {
+        background: rgb(43, 31, 221);
+        color: white;
+    }
+   input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+   @media screen and (max-width: 600px){
+    button[type="submit"]{
+        margin-left: 10px;
+
+    }
+   }

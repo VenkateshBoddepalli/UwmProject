@@ -1,0 +1,122 @@
+/* Personal Details Tab Styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.text-center{
+    margin-top: -40px;
+}
+section{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-beautiful-bokeh-background-with-soft-color-image_351546.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 501px;
+
+}
+    
+ 
+.form-control-lg {
+    width: 172px;
+    height: 30px;
+   }
+   .text-danger{
+       font-weight: bolder;
+       font-size: larger;
+       margin-left: 250px;
+       
+   }
+   
+   .invalid {
+       border: 2px solid rgba(238, 8, 8, 0.932);
+   }
+   button[type="submit"]{
+       margin-left: 118px;
+   }
+   input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+sup {
+    color: red;
+}
+.form-row1{
+    display: flex;
+    margin-bottom: 7px;
+    margin-top: -3px;
+}
+.state-select1 {
+margin-left: 206px;
+}
+.state1 {
+border: 2px solid #0f0f0f;
+border-radius: 4px ;
+width: 172px;
+}
+.form-row1 label,
+.state_name1 {
+font-family: serif;
+font-size: 16.5px;
+font-weight: bold;
+text-align: left;
+margin-left: 14px;
+
+}
+.form-row1 input,
+.form-row1 select {
+padding: 6px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-family: serif;
+font-size: 13px;
+font-weight: bold;
+}
+
+.buttons{
+display: flex;
+margin-top: 20px;
+}
+
+button[type="submit"] {
+    background-color: #0a0a8a;
+    transform: scale(1.05);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+} 
+
+button[type="submit"]:hover {
+    background: rgb(43, 31, 221);
+    color: white;
+}
+
+   @media screen and (max-width: 600px){
+    button[type="submit"]{
+        margin-left: 10px;
+    }
+    .form-row1 {
+        flex-direction: column;
+    }
+  
+    .form-row1 label,
+    .form-row1 input,
+    .form-row1 select {
+        flex-basis: auto;
+        width: 100%;
+        margin-right: 0;
+    }
+    .state_name1 {
+        margin-right: 300px;
+    }
+    button[type="submit"] {
+        margin-left: 0;
+    }
+   }
+    
+   

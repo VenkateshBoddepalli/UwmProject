@@ -1,0 +1,30 @@
+/* liabilities Tab Styles */
+.form-control-lg {
+    width: 172px;
+    height: 30px;
+   }
+   .text-danger{
+       font-weight: bolder;
+       font-size: larger;
+       margin-left: 250px;
+   }
+   
+   .invalid {
+       border: 2px solid rgba(238, 8, 8, 0.932);
+   }
+   button[type="submit"]{
+       margin-left: 118px;
+   }
+   input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+   @media screen and (max-width: 600px){
+    button[type="submit"]{
+        margin-left: 10px;
+
+    }
+   }
+    
+   
